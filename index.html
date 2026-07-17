@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochamad Nurilham | Web Developer &amp; IT Specialist Portfolio</title>
+    <meta name="description" content="Portofolio Profesional Mochamad Nurilham Fauzi Kusumah - Web Developer, System Administrator &amp; IT Specialist. Siap berkontribusi secara profesional.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS (Version 1: Next-Gen Space Blue) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <span>N</span>urilham.
+            </a>
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#projects" class="nav-link">Proyek</a>
+                <a href="#resume" class="nav-link">Riwayat</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Selamat Datang di Portofolio Saya</span>
+                <h1 class="hero-title">Halo, Saya <span class="highlight">Mochamad Nurilham</span></h1>
+                <h2 class="hero-typing">Spesialisasi <span class="typing-text"></span></h2>
+                <p class="hero-description">
+                    Lulusan S1 Teknik Informatika yang berfokus pada pengembangan aplikasi web, integrasi API, manajemen server, dan otomasi sistem. Berdedikasi menghadirkan solusi teknologi yang andal, efisien, dan aman guna menunjang operasional organisasi.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hubungi Saya <i class="fas fa-paper-plane"></i></a>
+                    <a href="assets/cv.pdf" download="CV_Mochamad_Nurilham_Fauzi_Kusumah.pdf" class="btn btn-secondary">Unduh CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-wrapper">
+                    <img src="assets/avatar.jpg" alt="Mochamad Nurilham - Foto Profil" class="avatar-img">
+                    <div class="avatar-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="pre-title">Tentang Saya</span>
+                <h2 class="section-title">Kenal Lebih Dekat</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Pekerja IT &amp; Web Developer Profesional</h3>
+                    <p>
+                        Saya memiliki minat mendalam dan pengalaman praktis dalam dunia teknologi informasi. Sejak menempuh pendidikan Sarjana Teknik Informatika di Universitas Widyatama (2017-2021), saya terus mengasah kemampuan teknis di bidang pemrograman web, scripting otomatisasi, serta administrasi sistem/server.
+                    </p>
+                    <p>
+                        Dalam peran saya sebelumnya sebagai <strong>Asisten Dosen</strong>, saya terlatih untuk menganalisis masalah teknis, mendokumentasikan sistem, dan menjelaskan konsep rumit secara sederhana. Sebagai <strong>Freelance IT &amp; Web Developer</strong>, saya telah berhasil mendesain arsitektur web berbasis CMS maupun custom framework, mengintegrasikan berbagai API (seperti Bot Telegram untuk otomasi), serta memelihara performa dan konfigurasi keamanan dasar server (VPS/Linux/WAF) agar sistem berjalan tanpa kendala.
+                    </p>
+                    <div class="personal-info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Lokasi:</span>
+                            <span class="info-val">Padang, Sumatera Barat</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Pendidikan:</span>
+                            <span class="info-val">S1 Teknik Informatika</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Status Pekerjaan:</span>
+                            <span class="info-val text-green">Tersedia untuk Kerja</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Spesialisasi Utama:</span>
+                            <span class="info-val">Web &amp; System Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="pre-title">Keahlian Saya</span>
+                <h2 class="section-title">Kemampuan Teknis</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skills-card glass">
+                    <div class="skills-icon"><i class="fas fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p class="skills-card-desc">Membangun antarmuka web yang dinamis, responsif, dan interaktif serta backend yang andal.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5 / CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">RESTful API</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skills-card glass">
+                    <div class="skills-icon"><i class="fas fa-server"></i></div>
+                    <h3>Server &amp; Sysadmin</h3>
+                    <p class="skills-card-desc">Instalasi, konfigurasi, dan optimalisasi server Linux untuk hosting aplikasi web.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Linux Server (Ubuntu/Debian)</span>
+                        <span class="skill-tag">VPS Configuration</span>
+                        <span class="skill-tag">cPanel / WHM</span>
+                        <span class="skill-tag">Cloud Computing</span>
+                        <span class="skill-tag">Nginx / Apache</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skills-card glass">
+                    <div class="skills-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Automation &amp; Scripting</h3>
+                    <p class="skills-card-desc">Mengotomatiskan pekerjaan rutin dan mengintegrasikan layanan menggunakan skrip.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python Scripting</span>
+                        <span class="skill-tag">Bash Scripting</span>
+                        <span class="skill-tag">Telegram Bot API</span>
+                        <span class="skill-tag">Cron Jobs Automation</span>
+                        <span class="skill-tag">System Monitoring</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 4 -->
+                <div class="skills-card glass">
+                    <div class="skills-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Web Security &amp; Optimization</h3>
+                    <p class="skills-card-desc">Mengkonfigurasi proteksi jaringan dan mengoptimalkan performa akses web.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Cloudflare WAF</span>
+                        <span class="skill-tag">AWS &amp; Azure Basics</span>
+                        <span class="skill-tag">SSL/TLS &amp; HTTPS</span>
+                        <span class="skill-tag">Security Monitoring</span>
+                        <span class="skill-tag">Performance Tuning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="pre-title">Portofolio Proyek</span>
+                <h2 class="section-title">Karya &amp; Proyek Terpilih</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <!-- Bento Grid Projects Container -->
+            <div class="bento-grid">
+                <!-- Bento Item 1: Fitmate App (Spans 2 Columns, 2 Rows) -->
+                <div class="bento-item bento-fitmate glass">
+                    <div class="fitmate-carousel-container">
+                        <div class="fitmate-carousel">
+                            <div class="carousel-track">
+                                <div class="carousel-slide active">
+                                    <img src="assets/fitmate/fitmate-1.jpeg" alt="Fitmate Screenshot 1">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="assets/fitmate/fitmate-2.jpeg" alt="Fitmate Screenshot 2">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="assets/fitmate/fitmate-3.jpeg" alt="Fitmate Screenshot 3">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="assets/fitmate/fitmate-4.jpeg" alt="Fitmate Screenshot 4">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="assets/fitmate/fitmate-5.jpeg" alt="Fitmate Screenshot 5">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="assets/fitmate/fitmate-6.jpeg" alt="Fitmate Screenshot 6">
+                                </div>
+                            </div>
+                            <button class="carousel-btn btn-prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+                            <button class="carousel-btn btn-next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+                            <div class="carousel-indicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                                <span class="indicator" data-index="3"></span>
+                                <span class="indicator" data-index="4"></span>
+                                <span class="indicator" data-index="5"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bento-info">
+                        <span class="project-tag">Aplikasi Mobile / Android</span>
+                        <h3>Fitmate — Health Track</h3>
+                        <p class="project-desc">
+                            Aplikasi pengukur kesehatan untuk melacak berat badan, menghitung metrik kesehatan tubuh (seperti IMT/BMI), serta memantau perkembangan fisik secara periodik. 
+                        </p>
+                        <p class="project-desc-sub">
+                            Menunjukkan keahlian pengembangan aplikasi mobile yang user-friendly dan sangat relevan untuk digitalisasi layanan kesehatan di rumah sakit.
+                        </p>
+                        <div class="project-tech">
+                            <span>Android SDK</span>
+                            <span>UI/UX Design</span>
+                            <span>Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Item 2: IoT Room Detector (Spans 1 Column, 2 Rows - Tall Card) -->
+                <div class="bento-item bento-iot glass">
+                    <div class="project-thumb-container">
+                        <img src="assets/portfolio-images/page-6-img-3.png" alt="Sistem IoT" class="project-thumb">
+                    </div>
+                    <div class="bento-info">
+                        <span class="project-tag">IoT &amp; Android</span>
+                        <h3>IoT Kehadiran Ruangan</h3>
+                        <p class="project-desc">
+                            Perancangan aplikasi Android terintegrasi dengan sensor fisik IoT untuk memantau kehadiran orang di dalam ruangan secara real-time.
+                        </p>
+                        <p class="project-desc-sub">
+                            Menggunakan NodeMCU ESP8266, sensor gerak PIR, dan Firebase untuk sinkronisasi data yang cepat.
+                        </p>
+                        <div class="project-card-tech">
+                            <span>ESP8266</span>
+                            <span>Sensor PIR</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Item 3: Payroll System (Spans 1 Column, 1 Row) -->
+                <div class="bento-item bento-payroll glass">
+                    <div class="project-thumb-container">
+                        <img src="assets/portfolio-images/page-6-img-2.png" alt="Sistem Gaji Web" class="project-thumb">
+                    </div>
+                    <div class="bento-info">
+                        <span class="project-tag">Aplikasi Web</span>
+                        <h3>Sistem Gaji Web</h3>
+                        <p class="project-desc">Sistem informasi administrasi penggajian karyawan untuk kalkulasi gaji, tunjangan, dan rekapitulasi data keuangan bulanan divisi HR.</p>
+                        <div class="project-card-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Item 4: Censys (Spans 1 Column, 1 Row) -->
+                <div class="bento-item bento-censys glass">
+                    <div class="project-thumb-container">
+                        <img src="assets/portfolio-images/page-6-img-4.png" alt="Mitigasi IP Censys" class="project-thumb">
+                    </div>
+                    <div class="bento-info">
+                        <span class="project-tag">Riset &amp; Keamanan</span>
+                        <h3>Mitigasi IP (Censys)</h3>
+                        <p class="project-desc">Analisis untuk mendeteksi dan memitigasi kebocoran alamat IP internal server menggunakan database Censys API guna mengamankan aset domain web.</p>
+                        <div class="project-card-tech">
+                            <span>Censys API</span>
+                            <span>Auditing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bento Item 5: Open for Opportunities Status (Spans 1 Column, 1 Row) -->
+                <div class="bento-item bento-status glass">
+                    <div class="bento-info">
+                        <span class="project-tag">Status Karir</span>
+                        <h3>Info Lamaran Kerja</h3>
+                        <div class="pulse-badge">
+                            <span class="pulse-dot"></span>
+                            <span class="pulse-text">Aktif Melamar Kerja</span>
+                        </div>
+                        <p class="project-desc">Siap berkontribusi secara profesional di bidang <strong>Software Development, System Administration, dan Solusi Teknologi Informasi</strong>.</p>
+                        <a href="#contact" class="status-link">Hubungi Saya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume / Education & Experience Timeline -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="pre-title">Riwayat Hidup</span>
+                <h2 class="section-title">Pendidikan &amp; Pengalaman</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="timeline-container">
+                <!-- Left Column: Pendidikan -->
+                <div class="timeline-column">
+                    <div class="timeline-col-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Pendidikan</h3>
+                    </div>
+                    
+                    <div class="timeline-wrapper">
+                        <!-- Education item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">2017 - 2021</span>
+                            <h4>S1 Teknik Informatika</h4>
+                            <h5>Universitas Widyatama</h5>
+                            <p>Mempelajari teori dasar ilmu komputer, algoritma pemrograman, jaringan komputer, rekayasa perangkat lunak, dan basis data. Lulus dengan pemahaman praktis yang kuat.</p>
+                        </div>
+                        
+                        <!-- Education item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">2014 - 2017</span>
+                            <h4>MIPA</h4>
+                            <h5>SMA Negeri 1 Kota Sukabumi</h5>
+                            <p>Fokus pada bidang Matematika dan Ilmu Pengetahuan Alam, melatih logika analitis yang menjadi dasar kuat untuk bidang Informatika.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Pengalaman -->
+                <div class="timeline-column">
+                    <div class="timeline-col-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Pengalaman Kerja</h3>
+                    </div>
+                    
+                    <div class="timeline-wrapper">
+                        <!-- Work item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">2021 - Sekarang</span>
+                            <h4>Freelance Web Developer &amp; IT Specialist</h4>
+                            <h5>Mandiri / Proyekan</h5>
+                            <p>Mengembangkan dan mengelola website custom, mendesain dan mengimplementasikan integrasi API, membuat Telegram bot untuk otomasi sistem, serta memastikan performa server (VPS/cPanel) berjalan efisien dan aman.</p>
+                        </div>
+                        
+                        <!-- Work item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <span class="timeline-date">2019 - 2021</span>
+                            <h4>Asisten Dosen</h4>
+                            <h5>Universitas Widyatama</h5>
+                            <p>Membantu dosen dalam proses penilaian tugas mahasiswa, membimbing sesi praktikum laboratorium komputer, serta membantu penyusunan materi ajar pemrograman dan IT.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="pre-title">Hubungi Saya</span>
+                <h2 class="section-title">Mari Berdiskusi</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info cards -->
+                <div class="contact-info">
+                    <h3>Hubungi Langsung</h3>
+                    <p>Silakan hubungi saya melalui detail kontak di bawah ini atau kirimkan pesan langsung melalui formulir kontak.</p>
+                    
+                    <div class="contact-details-list">
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:mochamad.n.f.k@gmail.com">mochamad.n.f.k@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Telepon / WhatsApp</h4>
+                                <a href="https://wa.me/6285182564946" target="_blank">+62 851-8256-4946</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Lokasi</h4>
+                                <p>Jl. Linggarjati VI No.10, Parupuk Tabing, Kec. Koto Tangah, Kota Padang, Sumatera Barat 25586</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mochamadnfk" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:mochamad.n.f.k@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact form -->
+                <div class="contact-form-container glass">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Subjek pesan">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan Anda</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-method">Kirim Melalui</label>
+                            <select id="contact-method" name="contact-method" required>
+                                <option value="gmail">Kirim via Gmail (Web)</option>
+                                <option value="whatsapp">Hubungi via WhatsApp</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                        <div id="form-message" class="form-message-alert"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mochamad Nurilham. All Rights Reserved.</p>
+            <p>Didesain dengan <i class="fas fa-heart text-red"></i> untuk Portofolio IT &amp; Pemrograman</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
